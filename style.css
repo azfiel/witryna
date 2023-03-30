@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 200vh;
+    width: 100vw;
+    background-image: url(img/tło.jpg);
+    overflow-x: hidden;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;    
+}
+
+.nav{
+    position: fixed;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:  20px;
+    transition: top 0.3s;
+    width: 100%;
+    top: 0;
+}
+
+.nav-text:hover{
+    color: lightgray;
+}
+
+.nav-text{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: larger;
+    color: azure;
+    text-decoration: none;
+}
+
+section{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    border: solid 4px black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: lightgray;
+}
+
+section p{
+    color: lightgray;
+    padding: 20px;
+
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.4);
+    position:  fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    color: azure;
+    padding: 20px;
+}   
+
+.five{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    width: 43.51vw;
+    border: solid 4px black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: lightgray;
+    float: left;
+
+}
+
+.five p{
+    color: lightgray;
+    padding: 20px;
+}
+
+.zdj    {
+    width: 30vw;
+    height:20vw;
+    border-radius: 15px;
+    border-color: black;
+    background-image: url(img/hui.jpg);
+}
+
+.kontakt{
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 7vh;
+    margin-bottom: 2.5vh;
+    border: solid 4px black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    color: lightgray;
+}
+
+.a:hover{
+    color: yellow;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  
